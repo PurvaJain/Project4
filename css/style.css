@@ -1,3 +1,52 @@
 body{
 			padding-top: 50px;
 		}
+.btn-info, .btn-primary{
+	background: #708B75;
+	border-color: none;
+}
+#navbar_container{
+	background: #84DCC6;
+}
+.navbar-brand, .nav > li > a{
+	color: #fff !important;
+}
+.navbar-toggle{
+	background: #fff;
+}
+.jumbotron{
+	background: #FE938C;
+	margin-bottom: 0;
+}
+#three_sections{
+	background: #E6B89C;
+}
+#small_section>.well{
+	background: #EAD2AC;
+	margin-bottom: 0;
+}	
+#img_carousel{
+	background: #9CAFB7;
+	padding-bottom: 40px;
+}	
+#img_section{
+	background: #4281A4;
+}
+#contact_page{
+	background: #5DD39E;
+}
+footer{
+	background: #BCE784;
+}
+.spacer{
+	margin: 20px auto;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+	.btn_spacing{
+		display:block;
+		width: 100%;
+		margin: 5px auto;
+	}
+}
